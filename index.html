@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IMD CA2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="static/main.css">
+  
+</head>
+
+
+<body>
+		<div style="background-image: url('img/bgimg1.jpg');">
+	
+		<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active">Home</a>
+		<a href="#about">About</a>
+		<a href="#education">Education</a>
+		<a href="#projects">Projects</a>
+		<a href="#work">Work Experience</a>
+		<a href="#hobbies">Hobbies and Interests</a>
+		<a href="Deliverables.html">Deliverables</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+		</div>
+		
+		
+		<!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: white">
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="mailto:X00148479@mytudublin.com" method="post" enctype="text/plain">
+								Name:<br>
+								<input type="text" name="name"><br>
+								E-mail:<br>
+								<input type="text" name="mail"><br>
+								Comment:<br>
+								<input type="text" name="comment" size="50"><br><br>
+								<input type="submit" value="Send">
+								<input type="reset" value="Reset">
+						</form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<section>
+
+
+			
+			<div class="box" id="intro">
+			<div class="container-fluid">
+			<h1>Introduction</h1>
+			
+			<div class="hero-image">
+				
+				
+				<img src="img/myphoto.jpg" class="profilePic" alt="Niall" style="width:12em;height:15em;margin-left:1em;">
+			
+			<div class="hero-text">
+            <div class="heroTextBox">
+                <div style="font-size:3em">Niall O'Reilly</div>
+                <div style="font-size:3em">
+                    <p>X00148479</p>
+                </div>
+
+            
+               </div>
+        </div>
+			</div>
+			
+			<div class="row" id="Contact_CV">
+			
+				<button type="button" class="btn btn-success" onclick="window.open('NiallOReilly.docx')">Download my CV</button>
+				<button type="button" class="btn btn-success" style="margin-left: 1em;" data-toggle="modal" data-target="#myModal">Contact me</button>
+			</div>
+			</div>
+			</div>
+			
+		
+			
+			<div class="box">
+			<div id="about">
+			<br/>
+				<h1>About Me</h1>
+				<p>I am 22 years old, currently in my 4th year of University. I am doing a Bachelor of Science Honours in Computing with a focus on Software
+				 Development. While my main focus in TUD is Software, I hope to one day work in the Machine Learning industry. As you will see below, I have worked as an intern with AWS on the
+				  Big Data team and I'm looking at getting hired on a more permanent basis to kick-start my career.</p>
+				
+				<br/><br/>
+			</div>
+			</div>	
+				<div class="box">
+			<div id="education">
+				<h1>Education</h1>
+				
+				<h2>Tallaght 2017-2021</h2>
+				
+				<ul class="nav nav-pills">
+					<li class="active"><a  href="#1a" data-toggle="tab">Fourth Year</a></li>
+					<li><a  href="#2a" data-toggle="tab">Third Year</a></li>
+					<li><a  href="#3a" data-toggle="tab">Second Year</a></li>
+					<li><a  href="#4a" data-toggle="tab">First Year</a></li>
+				</ul>
+				
+				<div class="tab-content clearfix">
+					<div class="tab-pane active" id="1a">
+						<table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>IMD</td>
+								<td>(PENDING)</td>
+							  </tr>
+							  <tr>
+								<td>Information Management</td>
+								<td>(PENDING)</td>
+							  </tr>
+							  <tr>
+								<td>Advanced Machine Learning</td>
+								<td>(PENDING)</td>
+							  </tr>
+							  <tr>
+								<td>EAD 1</td>
+								<td>(PENDING)</td>
+							  </tr>
+							  <tr>
+								<td>EPA</td>
+								<td>(PENDING)</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+					
+					<div class="tab-pane" id="2a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Operating Systems</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Big Data Technologies</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Data Analysis</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Server-Side Web Development</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Cloud Service and Distribution</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Experiential Learning - Internship</td>
+								<td>Pass</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+					
+					<div class="tab-pane" id="3a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Client side Web Development</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Discrete Mathematics 2</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Adv Database Technologies</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Network Fundementals</td>
+								<td>D</td>
+							  </tr>
+							  <tr>
+								<td>Software Qual Ass & Testing</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Software Development 3</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Information Security</td>
+								<td>D</td>
+							  </tr>
+							  <tr>
+								<td>Database Admin & Analysis</td>
+								<td>D</td>
+							  </tr>
+							  <tr>
+								<td>Management Science</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Routing & Switching Ess</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Project</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Software Development 4</td>
+								<td>C+</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+					
+					<div class="tab-pane" id="4a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Learning to Learn at 3rd Lvl</td>
+								<td>A</td>
+							  </tr>
+							  <tr>
+								<td>Discrete Mathematics 1</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Business & Information Sys</td>
+								<td>D</td>
+							  </tr>
+							  <tr>
+								<td>Fundamentals of Interface & Web</td>
+								<td>B+</td>
+							  </tr>
+							  <tr>
+								<td>Computer Architecture</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Software Development 1</td>
+								<td>A</td>
+							  </tr>
+							  <tr>
+								<td>Operating Syst Fundamentals</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Database Fundamentals</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Statistics</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Social Media Communications</td>
+								<td>B+</td>
+							  </tr>
+							  <tr>
+								<td>Object Oriented System Analy</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Software Development 2</td>
+								<td>A</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div> 
+				
+				<h2>PLC 2016-1017</h2>
+				
+				<table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Object Oriented Programming</td>
+								<td>Distinction</td>
+							  </tr>
+							  <tr>
+								<td>Web Development</td>
+								<td>Merit</td>
+							  </tr>
+							  <tr>
+								<td>Graphical User Interface Programming</td>
+								<td>Pass</td>
+							  </tr>
+							  <tr>
+								<td>Mathematics</td>
+								<td>Pass</td>
+							  </tr>
+							  <tr>
+								<td>Software Architecture</td>
+								<td>Pass</td>
+							  </tr>
+							  <tr>
+								<td>Programming and Design Principles</td>
+								<td>Distinction</td>
+							  </tr>
+							  <tr>
+								<td>Games Analysis Design</td>
+								<td>Merit</td>
+							  </tr>
+							</tbody>
+						  </table>
+				<br/><br/>
+			</div>
+			</div>
+			
+			
+			<div class="box">
+			<div id="projects">
+				<h1>Projects</h1>
+			
+			
+				<ul class="nav nav-pills">
+					<li class="active"><a  href="#4th" data-toggle="tab">Fourth Year</a></li>
+					<li><a  href="#2nd" data-toggle="tab">Second Year</a></li>
+				</ul>
+
+				<div class="tab-content clearfix">
+					<div class="tab-pane active" id="4th">
+						
+						<h2>Book Catalog system</h2>
+						<p>I'm currently making a book catalog and recommendation web app using the Django framework.
+						The main objective is for users to be able to search for a book, rate and review a book, and then receive a recommendation based on your reading preferences after you've read 10 or more books.
+						This is currently an ongoing Project.</p>
+						<br/>
+						
+					</div>
+					
+					<div class="tab-pane" id="2nd">
+					<h2>Car rental system</h2>
+						<p>A team project involving the development of a Car Rental system, where multiple users could rent a car for a chosen timespan by choosing dates they would like to rent the car for. An Administrator could add, remove, update and delete a car from the database. Features of the system included account authorization, with only the Administrator being able to make the changes to the database. More features included the customer or user to be able to register an account and then log in to manage their bookings. Rental system included Stripe which was verified to be working through their provided card numbers.</p>
+						<br/>
+						<h2>Challenges Faced</h2>
+						<ul>
+							<li>The payments part of the project was a challenge as we have never used Stripe before.</li>
+							<li>The login was a challenge as we never made a login before the project.</li>
+							<li>The actual choosing of dates was a large hurdle we hadn’t thought to be as big as it turned out to be. We were forced to make a compromise in having each car have a limit of 14 days rent and having large stocks of cars.</li>
+						</ul> 
+					
+					</div>
+				</div>  
+  
+				<br/><br/>
+			</div>
+			</div>
+			
+			<div class="box">
+
+			<br/>
+			<div id="work">
+				<h1>Work Experience</h1>
+				<h2>AWS - Cloud Support Associate (Intern)</h2>
+				<p>For the second semester of my 3rd year I was required to take part in an internship with a company. I was lucky enough
+				that AWS chose me. My main role at AWS was to do my profile project.</p>
+				<p>A project I undertook under the guide of my mentor at AWS, I was to upload the csv files from the <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports">John Hopkins Covid19 dataset</a> to an S3 bucket for analysis. The files were stored in a Hive folder system (e.g. year=2020, month=04, day=15). I used a Python script in Lambda to download the raw .csv files from Github, manipulated the data to exclude all but 5 columns (Confirmed, Deaths, Recovered, Province_State, Country_Region) and to also remove rows where null values occurred for 2 columns (Province_State, Country_Region). I then had a Glue Crawler go through the bucket and partition it for Athena, where I verified the integrity of the data I needed. As Glue was not a service I was to go far in-depth with during my internship, my mentor then helped me set up a Glue ETL job to store the data in an RDS MySQL database. I then used Quicksight to visualize the data.</p>
+				
+				<h2>Challenges Faced</h2>
+						<ul>
+							<li>Glue job proved difficult to get running as when I started my project Glue 2.0 had not been introduced, slowing my progress more than I realised.</li>
+							<li>Had trouble create a reasonably challenging project as I have never done so before.</li>
+						</ul> 
+				
+
+				
+				<br/><br/>
+			</div>
+			<br/>
+			
+			
+			<div id="hobbies">
+				<h1>Hobbies and Interests</h1>
+				<h3>Reading</h3>
+				<p>I've always been an avid reader. At the beginning of the year I set out to read 70 books. By clicking the button below you will see
+				 that I've currently read 78 books this year.</p>
+				<button type="button" class="btn btn-success" onclick="window.location.href='https://www.goodreads.com/user/year_in_books/2020/99482058?utm_source=twitter'">Goodreads Books</button>
+				
+				
+				<br/><br/>
+			</div>
+			<br/>
+			
+			
+			</div>
+			
+			
+			
+			<div class="box">
+			<br/>
+			<div class="container" id="contact">
+			<h1>Contact Me!</h1>
+  <form action="mailto:X00148479@mytudublin.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</div>
+		</div>
+		
+		<br/>
+			
+			<div class="footer">
+				<p>Email: <a href="mailto:X00148479@mytudublin.com">X00148479@mytudublin.ie</a></p>
+			</div>
+			
+			 <!-- Modal -->
+			  <div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+				
+				 
+  
+  
+		<section>
+		
+	
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
